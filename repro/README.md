@@ -12,6 +12,7 @@ The repo will have a detached head pointing at `v2.14.2`
 To repro the issue
 ```
 cd repro
+meteor npm install
 meteor build ../build --directory --debug --server https://foo.com
 ```
 
